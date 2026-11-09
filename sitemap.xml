@@ -1,0 +1,22 @@
+<!--I used the dailt brew website we have been doing in class to help me with this -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.WholeBakery.co.za/</loc>
+    </url>
+    <url>
+        <loc>https://www.WholeBakery.co.za/index.html</loc>
+    </url>
+    <url>
+        <loc>https://www.WholeBakery.co.za/products.html</loc>
+    </url>
+    <url>
+        <loc>https://www.WholeBakery.co.za/contact.html</loc>
+    </url>
+    <url>
+        <loc>https://www.WholeBakery.co.za/about.html</loc>
+    </url>
+     <url>
+        <loc>https://www.WholeBakery.co.za/enquiry.html</loc>
+    </url>

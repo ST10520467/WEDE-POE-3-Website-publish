@@ -1,0 +1,50 @@
+Part 1 Feeback and changes
+
+The 1st correction and change i have made to my website is the sitemap, the change i made was i added what each subpage had to offer, so i added what each sub page had to offer to the sitemap. This was completed on the 1st of October.
+
+The 2nd correction and change I made was to my website is the image folder, it was missing in part one so in part 2 it will be there. This was completed on the 5th of October.
+
+The 3rd correction and change i made was the html structure because the img does not work as the image folder is absent, so i made sure the img folder is there so the image folder is there. This was completed on the 5th of October.
+
+The 4th correction and change I made was the comments in the code, I didn't explain my code well enough, in html had no comments, so i added comments. This was completed on the 1st to the 5th of October.
+
+The 5th correction and change I made was the commits. My commits were not detailed enough so in part 2 my commit will be more detailed. This was completed on the from the 1st to the 5th of October.
+
+The 6th correction and change I made was the change Log, i didn't have a changelog, so what i did for part 2 was add the changelog to the readme file. This was completed on the 5th of October.
+
+The 7th correction and change I made was the reference list and intext references, this would have made my work stronger, so the change i made was using intext references more and adding more references to my reference list. This was completed on the 5 of October. 
+
+
+
+Part 2 Feedback and changes
+
+The 1st changes i made because of the feedback is the feedback for part 1. All the problems were fixed apart from the the sitemap does not explain what each page offers and the file structure needs improvement. What i did was make a more detailed sitemap where the subpages are explained more and I improved the File structure.
+
+The 2nd change I made to the consolidate repeated declarations and removed un used selectors. What I did was I went back to my code and I removed all the selectors that were not used and I consolidated every single declarations that were repeaated.
+
+The 3rd change I made was to improve the consistency and I corrected the mismatched heading tags in the HTML code. What I did was I went back to the HTML code and the typography styles and I improved the consistency the code and I corrected all of the mismatched headings tags in the HTML code.
+
+The 4th change I made was HTML uses class=".site-header" while the CSS targets .site-header, I had to Correct the class name so the intended header layout is applied. What I did was I went back to the styles code and HTML code, and I corrected the class name so that the intended header is applied.
+
+The 5th change I made was refining the styling so that there is consistency across all the websites pages, What I did was refine all the styles so that there is consistency across the websites page.
+
+The 6th change I made was Add consistent hover and focus feedback for buttons, links and form controls. What I did was I added a hover that was more consistent an what I also did was focus on the buttons feedback.
+
+The 7th change I made was A mobile breakpoint at 768px is provided, but several rules target classes not used by the HTML. The product grid also retains five columns because flex-direction does not change a CSS Grid layout. Correct and test the responsive rules. The website is not as responsive as it could be. What I did was I I went to the code and corrected and tested the responsive rules so that the website is responsive.
+
+The 8th change I made was Some layouts adapt to smaller screens, but the product grid does not correctly change its column count on mobile. Add suitable responsive grid definitions and test the other sections. What I did was I added a suitable responsive grid definitionsand I also tested all of the other sections.
+
+The 9th change I made was There are no meaningful responsive font-size adjustments in the media query. Adjust headings and body text for smaller screens. SO what I did was I adjusted all of the headings and text of the code for smaller screens such as a mobile.
+
+The 10th change I made was Navigation links can wrap, but the intended mobile header styling is not applied because the class name does not match. Correct the class and test the mobile menu. What I did was I corrected the name of the classes so it matches and I tested the website on the Menu.
+
+The 11th change I made was Product images have sizing rules, but images elsewhere lack consistent responsive constraints. Add appropriate sizing and ensure images scale without overflowing their containers. So what I did was I went to the code and I added appropriate sizing and I also made sure the images scale without overflowing th containers.
+
+The 12th change I made was Use specific messages that identify the files or features updated, so the commit history provides a clearer record of the development process. What I did was when I commited during part 3 I used specific messages which made the commit history have a clear record of the devlopment of part 3.
+
+The 13th change I made was Improve the organisation and ensure the documented project structure matches the submitted files. So what I did was I made sure the documented project structure matched the submitted files.
+
+The 14th change I made was The changelog contains dated development entries, but it is stored inside a folder named changelog.txt, and the file itself has no extension. Save the changelog as changelog.md in the project root and ensure the entries are specific, consistently dated, and accurately describe the actual Part 2 changes and fixes, including corrections made in response to Part 1 feedback. Include the changelog in the README for easy reference. What I did was do exactly what the feedback told me, the feedback is above.
+
+The 15th change I made was A substantial reference list is provided, and AI use is acknowledged.Improve consistency and identify the relevant AI outputs or conversations where applicable. So what I did was I improved the consistency and I identified the relevant AI outputs.
+

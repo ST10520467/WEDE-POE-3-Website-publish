@@ -1,0 +1,719 @@
+/*Refernces for code*/
+/*  I used Ai to help me when needed*/
+/*To help me with the project I used Websites that we have done in class throughout the semester.
+
+One website I used The daily brew
+
+The other website i used was Urban threads
+
+The other website I used was vibehub
+
+The last website I used was moviebookhaven
+
+All of the above is what i used to help me with my project, I used it to help me with my styling code.*/
+
+
+/*Base Styles for Website*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #f1d397;
+    line-height: 1.5;
+    color: #1a1a2e;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    align-items: center;
+}
+
+/*Styles for Home Page (index.html) */
+
+/*Styles for navigation*/
+header {
+    border-bottom: 24px solid #e5a93c;
+    background: #dfad51;
+}
+
+
+/*Styles for navigation*/
+site-header {
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    min-height: 85px;
+    justify-content: space-between;
+    align-items: left;
+    padding: 0 23px;
+}
+
+/*Styles for navigation*/
+nav {
+    gap: 11px;
+    display: flex;
+    color: white;
+    white-space: nowrap;
+}
+
+/*Styles for navigation*/
+nav a {
+    font-size: 21px;
+    color: #2C221E;
+    font-weight: 700;
+}
+
+/*Styles for navigation*/
+nav a:hover,
+nav a:focus {
+    color: white;
+    border-bottom: 2px solid #ffffff;
+}
+
+/*Styles for Home Page (index.html) */
+.heading {
+    font-weight: 900;
+    font-size: 49px;
+    white-space: nowrap;
+    letter-spacing: -1px;
+    color: rgb(255, 255, 255);
+}
+
+/*Styles for Home Page (index.html) */
+.heading span {
+    color: #6b3f2a;
+}
+
+/*Styles for Home Page (index.html) */
+.main-heading {
+    color: #6b3f2a;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+/*Styles for Home Page (index.html) */
+.hero-section {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 49px;
+    margin: 38px auto;
+    text-align: center;
+    max-height: 100%;
+}
+
+/*Styles for Home Page (index.html) */
+.products {
+    margin: 38px auto;
+    max-width: 1000px;
+    text-align: center;
+    padding: 0 19px;
+}
+
+/*Styles for Home Page (index.html) */
+.products {
+    margin-bottom: 28px;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+
+
+/*Styles for Home Page (index.html) */
+.product-card {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+/*Styles for Home Page (index.html) */
+.product-card img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 24px;
+    border-radius: 7px;
+}
+
+/*Styles for Home Page (index.html) */
+.product-card p {
+    color: #555555;
+    font-size: 0.97rem;
+}
+
+/*Styles for call to action button*/
+.btn-primary {
+    border-radius: 800px;
+    padding: 13px 23px;
+    background: #e5a93c;
+    color: #ffffff;
+    font-weight: 800;
+    gap: 8px;
+    display: inline-block;
+}
+
+.cta-container {
+    margin: 19px;
+    text-align: center;
+}
+
+.btn-primary {
+  border-radius: 4px;
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  
+  /* This is the code for the smooth transition for when goin over the button */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* This is the hover effect for the button when the user goes over the button with the mouse*/
+.btn-primary:hover {
+  transform: scale(1.08); 
+  background-color:  #e5a93c;
+}
+
+/* This is the Javascript class for the button animation */
+.btn-click-anim {
+  transform: scale(0.95); 
+}
+
+/*Styles for footer*/
+footer {
+    padding: 19px 0;
+    width: 100%;                         
+    margin-top: 18px;
+    background-color: transparent;
+    text-align: center;
+}
+
+/*Styles for About Us Page (about.html) */
+
+/*Styles for Brief introduction*/
+.hero-section {
+    padding: 0 18px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 49px;
+    margin: 19px auto;
+    text-align: center;
+}
+
+/*Styles for Mission and Vision */
+.Mission-section {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 37px;
+    margin: 19px auto;
+    text-align: Left;
+}
+
+/*Styles for Team members*/
+.Team-section {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 37px;
+    margin: 19px auto;
+    text-align: left;
+}
+
+/*Styles for Core Values*/
+.Values-section {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 13px;
+    margin: 19px auto;
+    text-align: left;
+}
+
+/*Styles for behind the scenes*/
+.Behind-section {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 50px;
+    margin: 19px auto;
+    text-align: center;
+}
+
+/*Styles for footer*/
+footer {
+    padding: 19px 0;  
+    width: 100%;                      
+    background-color: transparent;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*Styles for Products Page*/
+
+
+/*Styles for product cards*/
+.card {
+    flex-shrink: 0;
+    width: 240px;
+    border: 1px solid #e8e8f0;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 21px;
+    justify-content: center;
+
+}
+
+/*Used AI to help*/
+.card-row {
+    gap: 18px;
+    display: grid;
+    padding: 15px;
+    max-width: 1100px;
+    grid-template-columns: repeat(5, 1fr);
+    margin: auto;
+    justify-content: center;
+}
+
+/*Used AI to help*/
+.card img {
+  height: 180px; 
+  width: 100%;       
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+/* Styles for Contact Us Pge */
+
+/*Styles for loctaions of WholeBakery*/
+.location-section {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 18px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/*Used Ai to help*/
+.card-locations{
+    flex-direction: row;
+    display: grid;
+    border-radius: 35px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    justify-content: center;
+    max-width: 1100px;
+    flex: 1;
+    gap: 20px; 
+    padding: 0 15px;
+    margin: 20px auto;
+    flex: 1;
+}
+
+/*Used AI to help*/
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: stretch;
+}
+
+/*Styles for Contact details*/
+.Contact-section {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/*Styles for social media section*/
+.Media-section {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 10px;
+    margin: 19px auto;
+    text-align: left;
+}
+
+/*Styles for Contact Form*/
+.Form-section {
+    padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px;
+    border-radius: 50px; 
+    margin: 20px auto;
+    text-align: center;
+}
+
+/*Styles for footer*/
+.footer {
+    padding: 19px 0;
+    width: 100%;                         
+    background-color: transparent;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*Styles for Enquiry Page*/
+
+/*Styles for paragraph at top of enquiry page*/
+.Enquiry-section {
+    padding: 19px 19px;
+    background-color: #ffffff;
+    max-width: 1200px; 
+    border-radius: 50px;
+    margin: 37px auto;
+    text-align: left;
+}
+/*Styles for dropdown*/
+.form-group {
+     padding: 0 19px;
+    background-color: #ffffff;
+    max-width: 1000px; 
+    border-radius: 50px;
+    margin: 37px auto;
+    text-align: left;
+}
+
+/*Style for button on enquiry form*/
+.enquiry-button {
+   border-radius: 800px;
+    padding: 13px 23px;
+    background: #e5a93c;
+    color: #ffffff;
+    font-weight: 800;
+    gap: 8px;
+    
+    border:none;
+}
+ /*Stles for button*/
+.cta-container {
+    margin: 19px;
+    text-align: center;
+    border: none;
+}
+
+.form-note {
+    text-align: center;
+}
+
+/*Styles for the enquiry form*/
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    border: 4px solid #e5a93c;
+    padding: 12px 14px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: #fafafa;
+    font-size: 13px;
+    text-align: left;
+}
+
+/*Styles for footer*/
+footer {
+    padding: 19px 0;  
+    width: 100%;                      
+    background-color: transparent;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/*Used Ai to help me with this*/
+@media screen and (max-width: 768px) {
+
+/*This code fixes the whole header for a mobile phone */
+    
+ .site-header {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        padding: 19px 13px;
+    }
+
+    /* Helps Nav fit on smaller screen */
+    nav {
+        gap: 8px;
+        align-items: center;
+        flex-direction: column;
+         display: flex;   
+    }
+
+    .card-row {
+        grid-template-columns: 1fr; 
+         display: grid;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .card {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /*Used AI to help*/
+    h1, .main-heading, .heading {
+        font-size: 31px; 
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    body, p, li {
+        font-size: 13px;
+    }
+
+
+/*style for navigation of website*/
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+/* style for hero content of the website*/
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px 19px;
+    display: flex;
+  }
+
+/*style for button*/
+  .hero-buttons {
+    justify-content: center;
+    display: flex;
+  }
+/*style for card within hero section*/
+  .hero-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+  }
+
+ /*style for product card row*/
+  .card-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+
+/* Style for product card of website*/
+  .card {
+    width: 100%;
+    max-width: 425px;
+  }
+  
+  /* Style for footer of website*/
+  .cta, footer {
+    text-align: center;
+    padding: 28px 19px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-repeat: no-repeat;
+  background-position: 11px 13px;
+  font-size: 17px;
+  margin-bottom: 13px;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 13px 19px 13px 37px;
+  
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  
+}
+
+#myUL li a {
+  margin-top: -1px; /* Prevent double borders */
+  border: 1px solid #ddd;
+  padding: 12px;
+  background-color: #f5f5f5;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  color: rgb(0, 0, 0);
+}
+
+/* Styles for the accordion*/
+/*Used AI to help me with this(Gemini,2026*/
+/* Accordion Specific Styling */
+.accordion-container {
+    border: 1px solid #e0e0e0;
+    margin: 18px 0;
+    background-color: #fafafa;
+    padding: 8px;
+    border-radius: 7px;
+    
+}
+
+.accordion-container h3 {
+    color: #444;
+    margin-top: 0;
+    font-size: 18px;
+    
+}
+
+.accordion-item {
+    border-radius: 3px;
+    border: 2px solid #ddd;
+    overflow: hidden;
+    margin-bottom: 9px;
+}
+
+.accordion-header {
+    background-color: #ffffff;
+    width: 100%;
+    text-align: left;
+    border: none;
+    font-size: 16px;
+    padding: 13px 17px;
+    color: #2c3e50;
+    font-weight: bold;
+    display: flex;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+
+.accordion-header:hover {
+    background-color: #f1f1f1;
+}
+
+.accordion-header .icon {
+    transition: transform 0.3s ease;
+    font-size: 17px;
+}
+
+.accordion-item.active .accordion-header .icon {
+    transform: rotate(45deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background-color: #ffffff;
+    padding: 0 15px;
+}
+
+.accordion-item.active .accordion-content {
+    padding: 11px 14px;
+    max-height: 204px;
+}
+
+/*Used AI to help me with button annimation (Gemini,2026)*/
+.btn-primary {
+  display: inline-block;
+  padding: 14px 22px;
+  color: #ffffff;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  text-decoration: none;
+  background: #e5a93c;
+  border-radius: 7px;
+}
+
+/* This styling code is the code for the hover over the button */
+.btn-primary:hover {
+  transform: scale(1.08);
+  background: #e5a93c;
+  
+}
+
+/* This is the javascript class for the click on the button*/
+.btn-click-anim {
+  transform: scale(0.95); 
+}
+
+/*Used AI gemini 2026 to help with the styles below*/
+/* This is the code for the background of the containers lightbox*/
+.lightbox {
+    position: fixed;
+    display: none;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 950;
+    width: 100%;
+    top: 0;
+    overflow: auto;
+    height: 100%;
+}
+
+/* This code makes the image bigger, its enlargers the image*/
+.lightbox-image {
+    margin: auto;
+    position: relative;
+    max-width: 87%;
+     transform: translateY(-50%);
+    display: block;
+    border-radius: 6px;
+    max-height: 82px;
+    top: 53%;
+    box-shadow: 0 7px 16px rgba(0,0,0,0.5);
+}
+
+/* This button closes the bigger image*/
+.lightbox-close {
+    top: 19px;
+    position: absolute;
+    z-index: 1001;
+    color: #f1f1f1;
+    right: 37px;
+    font-weight: bold;
+    font-size: 43px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus {
+    text-decoration: none;
+    color: #bbb;
+}
+
+/* The code for the point cursor and the hover effect over the image*/
+.card img {
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card img:hover {
+    transform: scale(1.02);
+}

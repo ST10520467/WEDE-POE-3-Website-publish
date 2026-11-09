@@ -1,0 +1,7 @@
+<!--Used lecturer resources to help me with this-->1
+
+User-agent: *
+
+Allow: /
+
+Sitemap: https://www.WholeBakery.co.za/sitemap.xml
